@@ -3,8 +3,8 @@ name = "Default python library style file for Nitpick"
 
 [nitpick.styles]
 include = [
-    "./black.toml",
-    "./pre-commit-hooks.toml",
+    "../python/black.toml",
+    "../python/pre-commit-hooks.toml",
 ]
 
 [nitpick.files.absent]
