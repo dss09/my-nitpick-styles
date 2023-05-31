@@ -1,0 +1,39 @@
+[nitpick.meta]
+name = "pre-commit hooks for any project"
+url = "https://github.com/pre-commit/pre-commit-hooks"
+
+# See https://pre-commit.com/hooks.html for more hooks
+
+[nitpick.files.present]
+".pre-commit-config.yaml" = "Create the file with the contents below, then run 'pre-commit install'"
+
+[[".pre-commit-config.yaml".repos]]
+repo = "https://github.com/pre-commit/pre-commit-hooks"
+
+[[".pre-commit-config.yaml".repos.hooks]]
+id = "end-of-file-fixer"
+
+[[".pre-commit-config.yaml".repos.hooks]]
+id = "trailing-whitespace"
+
+[[".pre-commit-config.yaml".repos.hooks]]
+id = "check-yaml"
+
+[[".pre-commit-config.yaml".repos.hooks]]
+id = "check-added-large-files"
+
+[[".pre-commit-config.yaml".repos.hooks]]
+id = "check-case-conflict"
+
+[[".pre-commit-config.yaml".repos.hooks]]
+id = "check-merge-conflict"
+
+[[".pre-commit-config.yaml".repos.hooks]]
+id = "check-toml"
+
+[[".pre-commit-config.yaml".repos.hooks]]
+id = "check-xml"
+
+[[".pre-commit-config.yaml".repos.hooks]]
+id = "detect-aws-credentials"
+args = ["--allow-missing-credentials"]

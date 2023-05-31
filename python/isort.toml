@@ -1,0 +1,14 @@
+[nitpick.meta]
+name = "isort"
+url = "https://github.com/PyCQA/isort"
+
+["pyproject.toml".tool.isort]
+profile = "black"
+skip = ".tox,build"
+known_first_party = "tests"
+
+[[".pre-commit-config.yaml".repos]]
+repo = "https://github.com/PyCQA/isort"
+
+[[".pre-commit-config.yaml".repos.hooks]]
+id = "isort"
