@@ -1,0 +1,15 @@
+[nitpick.meta]
+name = "Djhtml"
+url = "https://github.com/rtts/djhtml"
+
+[[".pre-commit-config.yaml".repos]]
+repo = "https://github.com/rtts/djhtml"
+
+[[".pre-commit-config.yaml".repos.hooks]]
+id = "djhtml"
+
+[[".pre-commit-config.yaml".repos.hooks]]
+id = "djcss"
+
+[[".pre-commit-config.yaml".repos.hooks]]
+id = "djjs"

@@ -1,0 +1,9 @@
+[nitpick.meta]
+name = "Curlylint"
+url = "https://github.com/thibaudcolas/curlylint"
+
+[[".pre-commit-config.yaml".repos]]
+repo = "https://github.com/thibaudcolas/curlylint"
+
+[[".pre-commit-config.yaml".repos.hooks]]
+id = "curlylint"

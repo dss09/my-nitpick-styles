@@ -3,15 +3,9 @@ name = "Default python library style file for Nitpick"
 
 [nitpick.styles]
 include = [
+    "../any/absent.toml",
+    "../any/present.toml",
+    "../any/prettier.toml",
     "../python/black.toml",
     "../python/pre-commit-hooks.toml",
 ]
-
-[nitpick.files.absent]
-"requirements.txt" = "Install poetry, run 'poetry init' to create pyproject.toml, and move dependencies to it"
-".isort.cfg" = "Move values to setup.cfg, section [isort]"
-".pyup.yml" = "Configure safety instead: https://github.com/pyupio/safety#using-safety-with-a-ci-service"
-
-["pyproject.toml".tool.black]
-line-length = 120
-

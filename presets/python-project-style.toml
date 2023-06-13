@@ -1,0 +1,13 @@
+[nitpick.meta]
+name = "Default python project style file for Nitpick"
+
+[nitpick.styles]
+include = [
+    "../any/absent.toml",
+    "../any/present.toml",
+    "../any/curlylint.toml",
+    "../any/pre-commit-hooks.toml",
+    "../python/black.toml",
+    "../python/isort.toml",
+    "../python/pre-commit-hooks.toml"
+]

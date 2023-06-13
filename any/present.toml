@@ -1,0 +1,6 @@
+[nitpick.meta]
+name = "Files that should exist"
+
+[nitpick.files.present]
+"CHANGELOG.md" = "Add changelog"
+"LICENSE" = "Add license"

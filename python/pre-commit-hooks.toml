@@ -28,3 +28,9 @@ repo = "https://github.com/pre-commit/pre-commit-hooks"
 
 [[".pre-commit-config.yaml".repos.hooks]]
 id = "debug-statements"
+
+[[".pre-commit-config.yaml".repos]]
+repo = "https://github.com/ecugol/pre-commit-hooks-django"
+
+[[".pre-commit-config.yaml".repos.hooks]]
+id = "check-untracked-migrations"
