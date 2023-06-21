@@ -9,5 +9,6 @@ include = [
     "../any/pre-commit-hooks.toml",
     "../python/black.toml",
     "../python/isort.toml",
-    "../python/pre-commit-hooks.toml"
+    "../python/pre-commit-hooks.toml",
+    "../python/pre-commit-hooks-project-extra.toml"
 ]

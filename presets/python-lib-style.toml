@@ -5,7 +5,9 @@ name = "Default python library style file for Nitpick"
 include = [
     "../any/absent.toml",
     "../any/present.toml",
-    "../any/prettier.toml",
+    "../any/curlylint.toml",
+    "../any/pre-commit-hooks.toml",
     "../python/black.toml",
+    "../python/isort.toml",
     "../python/pre-commit-hooks.toml",
 ]
